@@ -8,4 +8,9 @@ public class Person {
 		this.name = name;
 		this.surname = surname;
 	}
+
+	public void getDetails()
+	{
+		System.out.println("Nombre: " + this.name + " Apellidos: " + this.surname);
+	}
 }
